@@ -1,0 +1,10 @@
+.quote-box {
+  background: #29294d;
+  color: #ffd700;
+  padding: 12px;
+  border-radius: 12px;
+  font-style: italic;
+  text-align: center;
+  box-shadow: 0 0 10px #ffd70088;
+  transition: all 0.3s ease;
+}

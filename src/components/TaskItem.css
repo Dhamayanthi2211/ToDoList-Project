@@ -1,0 +1,55 @@
+.task-card {
+  background: #3a3a5a;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 10px #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.task-card.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.task-content {
+  flex: 1;
+  color: white;
+  font-size: 16px;
+}
+
+.task-meta {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 4px;
+}
+
+.task-edit-input {
+  padding: 8px;
+  border-radius: 8px;
+  background: #444466;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.task-actions button:hover {
+  transform: scale(1.2);
+}
