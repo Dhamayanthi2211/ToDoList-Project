@@ -155,7 +155,7 @@ html, body {
   }
 }
 
-/* Mobile view */
+/* Mobile view with centered layout */
 @media (max-width: 768px) {
   .app-card {
     max-width: 95%;
